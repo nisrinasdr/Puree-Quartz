@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+/* navigation */
+nav ul {
+    background-color: rgba(239,207,186,255);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    box-shadow: 3px 5px 31px 5px rgba(0,0,0,0.05);
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    opacity: 60%;
+}
+
+nav ul li a:hover {
+    font-size: 20px;
+}
+
+nav ul li+li:before {
+    content: "";
+    padding: 20px;
+}
+
+header {
+    height: 100vh;
+}
+
+.web-header {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 75%;
+}
+
+.web-desc {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    right: 55%;
+}
+
+.web-desc h1 {
+    font-family: "Varela Round", Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+.divider {
+    width: 100px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(239,207,186,255);
+    margin: 10px 0 15px 0;
+}
+
+.about {
+    background-image: url("/resources/images/workplace.jpg");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.about:before, .team:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(239,207,186,0.8);
+}
+
+.about p {
+    position: absolute;
+    top:50%;
+    right:50%;
+    max-width: 500px;
+    z-index: 2;
+    line-height: 1.5rem;
+}
+
+.quotes-by {
+    font-family: "Varela Round", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.product-container {
+    margin: 0 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 30px 20px;
+    box-shadow: 3px 5px 31px 5px rgba(0,0,0,0.07);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    height: 350px;
+    width: 150px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+h2 {
+    font-family: "Varela Round", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.divider-2 {
+    width: 100px;
+    height: 3px;
+    border-radius: 20px;
+    background-color: rgba(239,207,186,255);
+    margin: 10px auto;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.card:hover {
+    
+    align-self:flex-start;
+}
+
+.service, .our-team {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.team {
+    background-image: url("/resources/images/workplace-2.jpg");
+    
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.team-container, .our-team {
+    position: relative;
+    z-index: 6;
+}
+
+.team-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.team-card img{
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-card {
+    max-height: 200px;
+    margin: 20px;
+}
+.team p {
+    max-width: 200px;
+    font-size: 15px;
+}
+
+.our-team{
+    padding: 20px;
+}
+
+.contact {
+    height: 400px;
+    margin: 20px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: absolute;
+    left: 15%;
+    
+}
+
+.our-contact {
+    text-align: left;
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+
+.contact-img img {
+    width: 400px;
+    height: auto;
+   
+    
+}
+
+.for-img {
+    position: absolute;
+    right: 15%;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    height: 25px;
+    background-color: rgba(239,207,186,255);
+}

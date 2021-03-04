@@ -225,6 +225,15 @@ h2 {
     right: 15%;
 }
 
+.contact {
+    width: 100%;
+} 
+
+iframe{ 
+    width: "300";
+    height: "200";
+}
+
 footer p {
     display: flex;
     align-items: center;
@@ -342,6 +351,15 @@ footer p {
         padding: 20px;
         height: 350px;
         width: 300px;
+    }
+
+    .for-img img {
+        width: 100%;
+    }
+
+    iframe{ 
+        width: 70vw;
+        height: "200";
     }
 }
 

@@ -267,7 +267,7 @@ footer p {
 @media screen and (max-width: 750px){
     .web-header {
         position: initial;
-        width: auto;
+        width: 100%;
         height: 65%;
         margin: auto;
         
@@ -304,7 +304,7 @@ footer p {
 
 @media screen and (max-width: 600px){
     .about p {
-        max-width: auto;
+        max-width: 100%;
         padding: 0px 30px;
         position: absolute;
         top:30%;
